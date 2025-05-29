@@ -52,7 +52,10 @@ plt.title("Top 10 Products by Total Sales")
 plt.xlabel("Total Sales (£)")
 plt.ylabel("Product Description")
 plt.tight_layout()
+plt.savefig(os.path.join(project_root,'reports/plots',"top_products_sales.png"))
 plt.show()
+plt.close()
+print("Plot saved as top_products_sales.png")
 
 # Analysis 2 (Monthly Revenue Trend)
 monthly_revenue = df.groupby(['InvoiceYear', 'InvoiceMonth'])['TotalPrice'].sum().reset_index()
@@ -70,7 +73,10 @@ plt.title('Monthly Revenue Trend (Last 6 Months)')
 plt.xlabel('Month')
 plt.ylabel('Total Revenue (£)')
 plt.tight_layout()
+plt.savefig(os.path.join(project_root,'reports/plots',"monthly_revenue_trend.png"))
 plt.show()
+print("Plot saved as monthly_revenue_trend.png")
+plt.close()
 
 # Analysis 3 (Top 10 average order value by country)
 top_countries = df.groupby("Country")["TotalPrice"].mean().sort_values(ascending=False).head(10)
@@ -81,7 +87,10 @@ plt.title("Top 10 Countries by Average Order Value")
 plt.xlabel("Country")
 plt.ylabel("Average Order Value (£)")
 plt.tight_layout()
+plt.savefig(os.path.join(project_root,'reports/plots',"top_countries_average_order_value.png"))
 plt.show()
+print("Plot saved as top_countries_average_order_value.png")
+plt.close()
 
 # Analysis 4 (Top 5 products by sales in country Norway)
 norway_sales = df[df["Country"] == "Norway"].groupby("Description")["TotalPrice"].sum().sort_values(ascending=False).head(5)
@@ -92,7 +101,10 @@ plt.title("Top 5 Products by Sales in Norway")
 plt.xlabel("Product Description")
 plt.ylabel("Total Sales (£)")
 plt.tight_layout()
+plt.savefig(os.path.join(project_root,'reports/plots',"norway_sales_top_products.png"))
 plt.show()
+print("Plot saved as norway_sales_top_products.png")
+plt.close()
 
 # Analysis 5 (Customer Segmentation)
 # Load customer summary table
@@ -107,29 +119,12 @@ sns.barplot(data=segment_counts, x='Segment', y='Customer Count', palette='Set2'
 plt.title('Customer Segments based on RFM')
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig(os.path.join(project_root,'reports/plots',"customer_segments_rfm.png"))
 plt.show()
+print("Plot saved as customer_segments_rfm.png")
+plt.close()
 
 if __name__ == "__main__":
-    # Save the plot to a file
-    plt.savefig(os.path.join(project_root,'reports/plots',"top_products_sales.png"))
-    print("Plot saved as top_products_sales.png")
-
-    # Save the plot to a file
-    plt.savefig(os.path.join(project_root,'reports/plots',"monthly_revenue_trend.png"))
-    print("Plot saved as monthly_revenue_trend.png")
-
-    # Save the plot to a file
-    plt.savefig(os.path.join(project_root,'reports/plots',"top_countries_average_order_value.png"))
-    print("Plot saved as top_countries_average_order_value.png")
-
-    # Save the plot to a file
-    plt.savefig(os.path.join(project_root,'reports/plots',"norway_sales_top_products.png"))
-    print("Plot saved as norway_sales_top_products.png")
-
-    # Save the customer segmentation plot
-    plt.savefig(os.path.join(project_root,'reports/plots',"customer_segments_rfm.png"))
-    print("Plot saved as customer_segments_rfm.png")
-
     # Save the top products data to a CSV file
     top_products.to_csv(os.path.join(project_root,'reports/csv',"top_products.csv"), header=True)
     print("Top products data saved as top_products.csv")
