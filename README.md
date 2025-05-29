@@ -78,6 +78,15 @@ python scripts/etl_pipeline.py
 
 jupyter notebook notebooks/retail_eda_and_insights.ipynb
 
+📷 Sample Visualizations
+### 🥇 Top 10 Products by Total Sales
+![Top Products](reports/plots/top_products_sales.png)
+
+### 📈 Monthly Revenue Trend
+![Monthly Revenue](reports/plots/monthly_revenue_trend.png)
+
+### 👥 Customer Segmentation (RFM)
+![RFM Segments](reports/plots/customer_segments_rfm.png)
 
 🙋‍♀️ About the Author
 Built with ❤️ by Payal Goyal, an aspiring Data Engineer passionate about building production-grade analytics pipelines.
