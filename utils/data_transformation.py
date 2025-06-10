@@ -98,3 +98,6 @@ def data_transformation():
     sales_cust_df.to_csv(os.path.join(project_root, 'data/gold/sales_enriched_gold.csv'), index=False)
     cust_summary_df.to_csv(os.path.join(project_root, 'data/gold/customer_summary_gold.csv'), index=False)
     inventory_df.to_csv(os.path.join(project_root, 'data/gold/inventory_gold.csv'), index=False)
+
+if __name__ == "__main__":
+    data_transformation()

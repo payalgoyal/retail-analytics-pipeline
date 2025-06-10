@@ -11,7 +11,8 @@ def clean_salesdf():
 
     # Drop rows with missing values
     salesdf.dropna(subset=['CustomerID', 'StockCode','Quantity','UnitPrice'], inplace=True)
-
+    salesdf['CustomerID'] = salesdf['CustomerID'].astype(int)
+    
     #Remove Quantity less than 1
     salesdf = salesdf[salesdf['Quantity'] >= 1]
 
@@ -96,3 +97,6 @@ def data_cleaning():
     clean_salesdf()
     clean_customersdf()
     clean_inventorydf()
+
+if __name__ == "__main__":
+    data_cleaning()

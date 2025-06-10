@@ -10,7 +10,8 @@ faker = Faker()
 
 def generate_data():
     sales_df = pd.read_excel(os.path.join(project_root, 'data/loaded/loaded_sales_data.xlsx'), sheet_name='Online Retail')
-    
+    sales_df['CustomerID'] = sales_df['CustomerID'].astype('Int64')
+
     # Generate customers data and store in customers.csv file
     customers = []
     customer_ids = sales_df['CustomerID'].unique()
@@ -42,3 +43,6 @@ def generate_data():
     inventory_df = pd.DataFrame(inventory)
 
     return sales_df, customers_df, inventory_df
+
+if __name__ == "__main__":
+    generate_data()
