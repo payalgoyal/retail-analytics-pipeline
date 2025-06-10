@@ -1,6 +1,9 @@
-# 🛍️ Retail Analytics Data Pipeline (Medallion Architecture)
+# 🛍️ Retail Analytics Data Pipeline + Streamlit Dashboard (Medallion Architecture)
 
-This project demonstrates an end-to-end retail data analytics pipeline using the Medallion Architecture (Bronze → Silver → Gold) built on the UCI Online Retail dataset.
+[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-blue)](https://streamlit.io)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)]
+
+An end-to-end retail analytics pipeline using Medallion Architecture (Bronze → Silver → Gold), enhanced with a **Streamlit dashboard** for interactive insights and visualization.
 
 ---
 
@@ -14,6 +17,18 @@ This project demonstrates an end-to-end retail data analytics pipeline using the
 - **Jupyter Notebook** for EDA & Insights
 
 ---
+
+## ✨ Features
+
+- Full ETL using **Python, Pandas, MySQL, PySpark**
+- Cloud-ready structure using Medallion Architecture
+- Interactive **Streamlit app** with:
+  - Dynamic **Key Metrics** (Revenue, Orders, Customers) filtered by country & date
+  - **Revenue Trend** and **Top Products** visuals
+  - **RFM-based customer segmentation**
+  - **Top Customers** listing
+  - **Country-wise customer distribution**
+  - Expanders for dataset exploration and filtering
 
 ## 📁 Folder Structure
 retail-analytics-pipeline/
@@ -70,13 +85,27 @@ git clone https://github.com/yourusername/retail-analytics-pipeline.git
 
 pip install -r requirements.txt
 
-3. Run ETL pipeline:
+3. Launch app
+streamlit run streamlit_app.py
+
+4. Run ETL pipeline:
 
 python scripts/etl_pipeline.py
 
-4. Open Jupyter Notebook for insights:
+5. Open Jupyter Notebook for insights:
 
 jupyter notebook notebooks/retail_eda_and_insights.ipynb
+
+6. Insights Section
+```markdown
+## 📊 Dashboard Insights
+
+1. **Key Metrics**: Revenue, Orders, Customers for filtered timeframe  
+2. **Monthly Revenue Trend** chart  
+3. **Top 10 Products** bar chart  
+4. **Customer Segmentation** via RFM (Champions, Loyal, etc.)  
+5. **Top 10 Customers** by spending  
+6. **Country Distribution** of unique customers 
 
 📷 Sample Visualizations
 ### 🥇 Top 10 Products by Total Sales
@@ -93,7 +122,3 @@ Built with ❤️ by Payal Goyal, an aspiring Data Engineer passionate about bui
 
 📌 License
 This project is for educational purposes.
-
-
-
-
