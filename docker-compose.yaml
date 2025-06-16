@@ -8,7 +8,7 @@ x-airflow-common: &airflow-common
   environment:
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: mysql+mysqlconnector://airflow:airflow@mysql:3306/retail_analytics_airflow
-    AIRFLOW__CORE__FERNET_KEY: 'AMONgARy35jI4Xz0ZUqSh1K4MI4hTqo7WW93xaYCRnU='
+    AIRFLOW__CORE__FERNET_KEY: YOUR_FERNET_KEY_SHOULD_BE_SET_IN_ENV_VARIABLES
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__WEBSERVER__RBAC: 'true'
   volumes:
