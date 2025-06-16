@@ -3,8 +3,10 @@ import sys
 import os
 from faker import Faker
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append('/opt/airflow/utils')
+project_root = os.getenv("AIRFLOW_HOME", "/opt/airflow")
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 faker = Faker()
 

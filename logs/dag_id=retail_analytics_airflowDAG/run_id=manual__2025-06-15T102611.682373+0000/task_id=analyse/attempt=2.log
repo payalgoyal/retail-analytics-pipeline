@@ -1,0 +1,36 @@
+[2025-06-15T10:30:17.364+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_analytics_airflowDAG.analyse manual__2025-06-15T10:26:11.682373+00:00 [queued]>
+[2025-06-15T10:30:17.381+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_analytics_airflowDAG.analyse manual__2025-06-15T10:26:11.682373+00:00 [queued]>
+[2025-06-15T10:30:17.382+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2025-06-15T10:30:17.407+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): analyse> on 2025-06-15 10:26:11.682373+00:00
+[2025-06-15T10:30:17.412+0000] {standard_task_runner.py:60} INFO - Started process 180 to run task
+[2025-06-15T10:30:17.416+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'retail_analytics_***DAG', 'analyse', 'manual__2025-06-15T10:26:11.682373+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_dag.py', '--cfg-path', '/tmp/tmpr7mjcafp']
+[2025-06-15T10:30:17.419+0000] {standard_task_runner.py:88} INFO - Job 33: Subtask analyse
+[2025-06-15T10:30:17.458+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-15T10:30:17.490+0000] {task_command.py:423} INFO - Running <TaskInstance: retail_analytics_airflowDAG.analyse manual__2025-06-15T10:26:11.682373+00:00 [running]> on host 4d5a92acab3e
+[2025-06-15T10:30:17.564+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retail_analytics_***DAG' AIRFLOW_CTX_TASK_ID='analyse' AIRFLOW_CTX_EXECUTION_DATE='2025-06-15T10:26:11.682373+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-15T10:26:11.682373+00:00'
+[2025-06-15T10:31:03.483+0000] {logging_mixin.py:188} WARNING - /opt/***/utils/data_analysis.py:42 FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+[2025-06-15T10:31:03.776+0000] {logging_mixin.py:188} INFO - Plot saved as top_products_sales.png
+[2025-06-15T10:31:03.783+0000] {logging_mixin.py:188} INFO - Top products data saved as top_products.csv
+[2025-06-15T10:31:04.111+0000] {logging_mixin.py:188} INFO - Plot saved as monthly_revenue_trend.png
+[2025-06-15T10:31:04.113+0000] {logging_mixin.py:188} INFO - Monthly revenue data saved as monthly_revenue.csv
+[2025-06-15T10:31:04.299+0000] {logging_mixin.py:188} WARNING - /opt/***/utils/data_analysis.py:83 FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+[2025-06-15T10:31:04.540+0000] {logging_mixin.py:188} INFO - Plot saved as top_countries_average_order_value.png
+[2025-06-15T10:31:04.542+0000] {logging_mixin.py:188} INFO - Top countries data saved as top_countries.csv
+[2025-06-15T10:31:04.636+0000] {logging_mixin.py:188} WARNING - /opt/***/utils/data_analysis.py:100 FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+[2025-06-15T10:31:04.817+0000] {logging_mixin.py:188} INFO - Plot saved as norway_sales_top_products.png
+[2025-06-15T10:31:04.820+0000] {logging_mixin.py:188} INFO - Norway sales data saved as norway_sales.csv
+[2025-06-15T10:31:05.322+0000] {logging_mixin.py:188} WARNING - /opt/***/utils/data_analysis.py:122 FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+[2025-06-15T10:31:05.495+0000] {logging_mixin.py:188} INFO - Plot saved as customer_segments_rfm.png
+[2025-06-15T10:31:05.499+0000] {logging_mixin.py:188} INFO - Database connection closed.
+[2025-06-15T10:31:05.951+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-15T10:31:05.962+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=retail_analytics_***DAG, task_id=analyse, execution_date=20250615T102611, start_date=20250615T103017, end_date=20250615T103105
+[2025-06-15T10:31:06.023+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-15T10:31:06.053+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

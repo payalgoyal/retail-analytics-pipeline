@@ -1,9 +1,12 @@
 import pandas as pd
 import sys
 import os
+import logging
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append('/opt/airflow/utils')
+project_root = os.getenv("AIRFLOW_HOME", "/opt/airflow")
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 def clean_salesdf():
     # Load the data
@@ -93,7 +96,7 @@ def clean_inventorydf():
     inventorydf.to_csv(os.path.join(project_root, 'data/silver/inventory_silver.csv'), index=False)
 
 def data_cleaning():
-
+    logging.info("Started Cleaning...")
     clean_salesdf()
     clean_customersdf()
     clean_inventorydf()

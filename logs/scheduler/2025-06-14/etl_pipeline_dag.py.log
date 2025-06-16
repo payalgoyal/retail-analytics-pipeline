@@ -1,0 +1,1462 @@
+[2025-06-14T16:31:49.483+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:31:49.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:31:49.488+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:31:49.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:31:50.921+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:31:50.910+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:31:50.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:31:50.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.476 seconds
+[2025-06-14T16:32:21.273+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:32:21.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:32:21.276+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:32:21.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:32:21.731+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:32:21.724+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:32:21.733+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:32:21.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.527 seconds
+[2025-06-14T16:32:52.018+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:32:52.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:32:52.021+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:32:52.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:32:52.485+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:32:52.471+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:32:52.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:32:52.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.515 seconds
+[2025-06-14T16:33:22.819+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:33:22.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:33:22.822+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:33:22.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:33:23.222+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:33:23.216+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:33:23.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:33:23.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.441 seconds
+[2025-06-14T16:33:53.543+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:33:53.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:33:53.546+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:33:53.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:33:54.000+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:33:53.986+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:33:54.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:33:54.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.507 seconds
+[2025-06-14T16:34:24.372+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:34:24.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:34:24.375+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:34:24.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:34:24.917+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:34:24.909+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:34:24.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:34:24.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.620 seconds
+[2025-06-14T16:34:55.296+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:34:55.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:34:55.298+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:34:55.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:34:55.717+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:34:55.711+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 12, in <module>
+    from data_extract import extract_data
+  File "/opt/airflow/utils/data_extract.py", line 4, in <module>
+    from utils.generate_data import generate_data
+ModuleNotFoundError: No module named 'utils'
+[2025-06-14T16:34:55.719+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:34:55.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.465 seconds
+[2025-06-14T16:35:26.097+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:35:26.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:35:26.100+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:35:26.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:35:27.111+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:35:27.095+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:35:27.114+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:35:27.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.053 seconds
+[2025-06-14T16:36:04.009+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:36:04.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:36:04.012+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:36:04.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:36:05.604+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:36:05.571+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:36:05.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:36:05.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.645 seconds
+[2025-06-14T16:36:35.942+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:36:35.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:36:35.945+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:36:35.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:36:36.398+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:36:36.391+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:36:36.399+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:36:36.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.512 seconds
+[2025-06-14T16:37:06.532+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:37:06.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:37:06.535+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:37:06.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:37:07.062+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:37:07.056+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:37:07.062+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:37:07.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.559 seconds
+[2025-06-14T16:37:37.480+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:37:37.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:37:37.485+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:37:37.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:37:38.256+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:37:38.219+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:37:38.259+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:37:38.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.874 seconds
+[2025-06-14T16:38:08.709+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:38:08.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:38:08.713+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:38:08.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:38:09.270+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:38:09.259+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:38:09.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:38:09.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.604 seconds
+[2025-06-14T16:38:39.540+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:38:39.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:38:39.544+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:38:39.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:38:40.083+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:38:40.066+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:38:40.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:38:40.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.584 seconds
+[2025-06-14T16:39:10.410+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:39:10.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:39:10.413+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:39:10.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:39:11.047+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:39:11.038+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:39:11.048+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:39:11.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.675 seconds
+[2025-06-14T16:39:41.376+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:39:41.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:39:41.380+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:39:41.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:39:41.968+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:39:41.943+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:39:41.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:39:42.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.646 seconds
+[2025-06-14T16:40:12.351+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:40:12.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:40:12.355+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:40:12.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:40:13.000+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:40:12.988+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_dag.py", line 16, in <module>
+    from data_load_to_sql import load_to_sql
+  File "/opt/airflow/utils/data_load_to_sql.py", line 22, in <module>
+    conn = engine.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-06-14T16:40:13.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:40:13.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.683 seconds
+[2025-06-14T16:41:13.924+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:41:13.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:41:13.926+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:13.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:41:15.413+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:41:15.756+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:15.755+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:retail_analytics_airflowDAG
+[2025-06-14T16:41:15.781+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:15.781+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:retail_analytics_airflowDAG
+[2025-06-14T16:41:15.805+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:15.804+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:retail_analytics_airflowDAG
+[2025-06-14T16:41:15.806+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:15.806+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:41:15.823+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:15.823+0000] {dag.py:3058} INFO - Creating ORM DAG for retail_analytics_airflowDAG
+[2025-06-14T16:41:15.839+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:15.839+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:41:15.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.958 seconds
+[2025-06-14T16:41:46.187+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:41:46.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:41:46.190+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:46.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:41:47.231+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:41:47.314+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:47.313+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:41:47.353+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:41:47.352+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:41:47.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.213 seconds
+[2025-06-14T16:42:17.987+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:17.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:42:17.992+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:17.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:18.716+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:18.717+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:18.717+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:18.764+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:18.764+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:42:18.838+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:18.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:42:18.860+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:18.860+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:42:18.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.918 seconds
+[2025-06-14T16:42:49.621+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:49.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:42:49.624+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:49.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:50.455+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:50.457+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:50.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:42:50.517+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:50.516+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:42:50.582+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:50.581+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:42:50.608+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:42:50.607+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:42:50.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.032 seconds
+[2025-06-14T16:43:21.212+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:21.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:43:21.215+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:21.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:21.857+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:21.859+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:21.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:21.902+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:21.902+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:43:21.943+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:21.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:43:21.962+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:21.962+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:43:22.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.795 seconds
+[2025-06-14T16:43:52.165+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:52.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:43:52.169+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:52.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:52.789+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:52.791+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:52.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:43:52.842+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:52.842+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:43:52.887+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:52.886+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:43:52.923+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:43:52.922+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:43:52.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.801 seconds
+[2025-06-14T16:44:23.494+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:23.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:44:23.497+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:23.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:24.021+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:24.023+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:24.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:24.059+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:24.058+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:44:24.097+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:24.097+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:44:24.119+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:24.119+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:44:24.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.655 seconds
+[2025-06-14T16:44:55.045+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:55.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:44:55.047+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:55.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:55.565+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:55.566+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:55.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:44:55.592+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:55.592+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:44:55.629+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:55.629+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:44:55.650+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:44:55.650+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:44:55.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.640 seconds
+[2025-06-14T16:45:25.749+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:25.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:45:25.752+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:25.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:26.281+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:26.283+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:26.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:26.334+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:26.334+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:45:26.373+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:26.372+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:45:26.388+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:26.388+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:45:26.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.674 seconds
+[2025-06-14T16:45:57.086+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:57.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:45:57.090+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:57.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:57.614+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:57.615+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:57.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:45:57.658+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:57.658+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:45:57.694+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:57.694+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:45:57.715+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:45:57.714+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:45:57.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.666 seconds
+[2025-06-14T16:46:28.432+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:46:28.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:46:28.438+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:46:28.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:46:29.281+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:46:29.282+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:46:29.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:46:29.336+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:46:29.336+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:46:29.396+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:46:29.395+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:46:29.428+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:46:29.427+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:46:29.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 1.051 seconds
+[2025-06-14T16:46:59.829+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:46:59.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:46:59.834+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:46:59.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:00.620+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:00.622+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:00.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:00.656+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:00.655+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:47:00.704+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:00.703+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:47:00.726+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:00.725+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:47:00.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.934 seconds
+[2025-06-14T16:47:30.987+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:30.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:47:30.990+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:30.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:31.583+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:31.584+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:31.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:47:31.637+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:31.637+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:47:31.676+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:31.676+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:47:31.693+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:47:31.693+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:47:31.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.740 seconds
+[2025-06-14T16:48:02.392+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:02.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:48:02.395+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:02.395+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:03.109+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:03.110+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:03.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:03.170+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:03.169+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:48:03.215+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:03.215+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:48:03.236+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:03.236+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:48:03.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.895 seconds
+[2025-06-14T16:48:34.163+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:34.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:48:34.166+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:34.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:34.736+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:34.739+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:34.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:48:34.784+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:34.783+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:48:34.827+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:34.827+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:48:34.845+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:48:34.845+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:48:34.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.723 seconds
+[2025-06-14T16:49:05.004+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:05.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:49:05.008+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:05.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:05.632+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:05.634+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:05.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:05.693+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:05.693+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:49:05.737+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:05.736+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:49:05.763+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:05.763+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:49:05.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.818 seconds
+[2025-06-14T16:49:36.488+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:36.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:49:36.491+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:36.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:37.203+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:37.204+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:37.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:49:37.226+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:37.225+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:49:37.257+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:37.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:49:37.275+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:49:37.275+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:49:37.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.821 seconds
+[2025-06-14T16:50:08.244+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:08.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:50:08.247+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:08.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:08.900+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:08.903+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:08.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:08.965+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:08.964+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:50:09.018+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:09.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:50:09.043+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:09.043+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:50:09.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.843 seconds
+[2025-06-14T16:50:39.544+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:39.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:50:39.547+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:39.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:40.132+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:40.133+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:40.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:50:40.179+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:40.178+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:50:40.222+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:40.222+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:50:40.244+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:50:40.244+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:50:40.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.754 seconds
+[2025-06-14T16:51:10.385+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:51:10.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_pipeline_dag.py for tasks to queue
+[2025-06-14T16:51:10.389+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:51:10.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:51:10.999+0000] {processor.py:840} INFO - DAG(s) 'retail_analytics_airflowDAG' retrieved from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:51:11.001+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:51:11.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_dag.py
+[2025-06-14T16:51:11.031+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:51:11.031+0000] {processor.py:431} INFO - Running SLA Checks for retail_analytics_airflowDAG
+[2025-06-14T16:51:11.065+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:51:11.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-14T16:51:11.081+0000] {logging_mixin.py:188} INFO - [2025-06-14T16:51:11.080+0000] {dag.py:3823} INFO - Setting next_dagrun for retail_analytics_airflowDAG to 2025-06-14 00:00:00+00:00, run_after=2025-06-15 00:00:00+00:00
+[2025-06-14T16:51:11.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_pipeline_dag.py took 0.728 seconds

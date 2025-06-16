@@ -4,21 +4,25 @@ import pandas as pd
 import os
 import sys
 from sqlalchemy import create_engine, inspect
+import logging
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append('/opt/airflow/utils')
+project_root = os.getenv("AIRFLOW_HOME", "/opt/airflow")
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 # DB credentials
 
-user = "root"
-host = "localhost"
-password = quote_plus("MySqlDb@1")
-database = "online_retail_data"
+user = "airflow"
+host = "mysql"
+password = "airflow"
+database = "retail_analytics_airflow"
 
 engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}:3306/{database}')
 conn = engine.connect()
 
 def load_to_sql():
+    logging.info("Started loading...")
     #table name 
     sales_table = 'sales_gold'
 
@@ -64,8 +68,7 @@ def load_to_sql():
     else:
         df.to_sql(name=inventory_table, con=conn, index=False, if_exists='append')
         print(f"✅ Table '{inventory_table}' exists. Data appended.")
-
-    conn.commit()
+    
     conn.close()
    
 if __name__ == "__main__":

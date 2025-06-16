@@ -1,12 +1,15 @@
 import pandas as pd
 import sys
 import os
+import logging
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-
+sys.path.append('/opt/airflow/utils')
+project_root = os.getenv("AIRFLOW_HOME", "/opt/airflow")
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 def data_transformation():
+    logging.info("Started transforming...")
     sales_df = pd.read_csv(os.path.join(project_root, 'data/silver/sales_silver.csv'))
 
     # Create a new column for total price
@@ -14,6 +17,8 @@ def data_transformation():
 
     customers_df = pd.read_csv(os.path.join(project_root, 'data/silver/customers_silver.csv'))
 
+    sales_df['CustomerID'] = sales_df['CustomerID'].astype(int)
+    customers_df['CustomerID'] = customers_df['CustomerID'].astype(int)
     # Merge sales and customers data
     sales_cust_df = pd.merge(sales_df, customers_df, on='CustomerID', how='left')
 
