@@ -1,37 +1,59 @@
-# 🛍️ Retail Analytics Data Pipeline + Streamlit Dashboard (Medallion Architecture)
+# 🛍️ Retail Analytics ETL Pipeline (Airflow Orchestration + MySQL + Streamlit)
 
 [![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-blue)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)]
 
-An end-to-end retail analytics pipeline using Medallion Architecture (Bronze → Silver → Gold), enhanced with a **Streamlit dashboard** for interactive insights and visualization.
+## Summary
+This project implements a full batch ETL pipeline for Retail Analytics using Apache Airflow orchestration. The pipeline extracts, cleans, transforms, and loads sales data into MySQL, followed by business dashboard development using Streamlit.
+
+It follows a Medallion Architecture (Bronze → Silver → Gold) and includes customer segmentation, revenue analysis, and business KPIs.
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Python** (Pandas, NumPy)
-- **MySQL** for gold-layer storage
-- **Seaborn / Matplotlib** for visualization
-- **Medallion Architecture**: Bronze → Silver → Gold
-- **SQLAlchemy** for database connection
-- **Jupyter Notebook** for EDA & Insights
+- Python, Pandas, MySQL, Airflow, SQLAlchemy, Seaborn, Streamlit, Faker
+- Apache Airflow (Orchestration: Scheduling, Dependencies, SLA, Retries)
+- Git, Jupyter Notebook
+  
+## Architecture
+- Extraction: Ingest raw retail data (UCI dataset + Faker-generated synthetic customer data).
+- Cleaning: Handle nulls, invalid types, duplicates via Pandas.
+- Transformation: Calculate KPIs — RFM segmentation, monthly revenue, country-wise trends.
+- Loading: Insert cleaned data into MySQL via SQLAlchemy.
+- Orchestration: Apache Airflow DAG handles:
+  - Task dependencies
+  - Retries
+  - SLA Monitoring
+  - Failure Handling
+  - Daily Scheduling
+  - Analysis: Streamlit dashboards for business KPIs & customer insights.
 
+## DAG Structure
+  extract → clean → transform → load → analysis
+
+## Airflow Features Implemented
+- DAG scheduling: Daily jobs
+- Retries with retry delays
+- SLA monitoring
+- Task dependencies with PythonOperator
+- Full modular code organization
+- Error handling and logging
+  
 ---
 
-## ✨ Features
-
-- Full ETL using **Python, Pandas, MySQL, PySpark**
-- Cloud-ready structure using Medallion Architecture
-- Interactive **Streamlit app** with:
-  - Dynamic **Key Metrics** (Revenue, Orders, Customers) filtered by country & date
-  - **Revenue Trend** and **Top Products** visuals
-  - **RFM-based customer segmentation**
-  - **Top Customers** listing
-  - **Country-wise customer distribution**
-  - Expanders for dataset exploration and filtering
+## Streamlit Features
+- Interactive Key Metrics (Revenue, Orders, Customers)
+- Dynamic filtering by country & timeframe
+- Revenue Trends & Top Products visualization
+- RFM-based Customer Segmentation
+- Top Customers listing
+- Country-wise customer distribution
+- Dataset Explorer with expanders
 
 ## 📁 Folder Structure
 retail-analytics-pipeline/
+├── airflow-docker/dags # Airflow DAG files
 ├── data/ # Raw to processed data
 ├── scripts/ # Master ETL Scripts
 ├── utils/ # Cleaning and Transformation Script
